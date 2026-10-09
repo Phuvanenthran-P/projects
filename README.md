@@ -1,57 +1,32 @@
-📊 Data Analytics Projects
+# 📊 Data Analytics Projects
 
-Welcome to my GitHub repository! This space showcases my projects related to data analytics, cloud computing, and AI. Each project includes code, documentation, and insights to help others learn and explore data-driven solutions.
+Python-based data analysis and visualization projects built with Pandas, Matplotlib, Seaborn and Plotly.
 
-🚀 Projects
+## Projects
 
-Real-Time Stock Market Dashboard 📈
+| Project | Description | Tools |
+|---|---|---|
+| [Stock Market Analysis](./stock-market-analysis) | Fetches live stock data and visualizes price trends with SMA and EMA indicators | Python, Pandas, Plotly, Matplotlib |
+| [Phone Usage Analysis](./phone-usage-analysis) | EDA on Indian mobile usage: screen time, data usage, calls, app installs | Python, Pandas, Seaborn, Plotly |
 
-Description: A dashboard that fetches live stock market data, displays interactive visualizations, and includes trend analysis using SMA & EMA.
+## Skills Demonstrated
 
-Technologies: Python, Pandas, Matplotlib, Plotly, Google Colab
+- Data cleaning and exploratory data analysis (EDA)
+- Time-series trend analysis (SMA, EMA)
+- Correlation analysis and interactive visualization
+- Jupyter / Google Colab workflows
 
-Features:
+## Run Locally
 
-Live stock price updates
+```bash
+git clone https://github.com/Phuvanenthran-P/data-analytics-projects.git
+cd data-analytics-projects
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook
+```
 
-SMA & EMA trend analysis
+## Contact
 
-Interactive data visualization
-
-Repository Link: [Real-Time Stock Market Dashboard](https://github.com/Phuvanenthran-P/Projects/blob/main/Real_Time_Stock_Market_Dashboard.ipynb)
-
-Phone Usage Analytics Dashboard 📱
-
-Description: Analyzing mobile phone usage patterns based on screen time, data usage, call duration, app installations, and more.
-
-Technologies: Python, Pandas, Matplotlib, Seaborn, Plotly, Google Colab
-
-Features:
-
-Exploratory Data Analysis (EDA)
-
-Visualizing phone usage patterns
-
-Correlation heatmaps
-
-Interactive scatter and pie charts
-
-Repository Link: [Phone Usage Analytics Dashboard](https://github.com/Phuvanenthran-P/Projects/blob/main/Phone_Usage_Analysis.ipynb)
-
-📚 Skills & Tools
-
-Programming: Python, SQL
-Data Analysis: Pandas, NumPy
-Visualization: Matplotlib, Seaborn, Plotly
-Cloud: AWS (Certified Cloud Practitioner)
-
-💌 Contact
-
-LinkedIn: [Phuvanenthran-P](https://www.linkedin.com/in/phuvanenthran-p-316a53287)
-
-GitHub: [phuvanenthran-P](https://github.com/Phuvanenthran-P/Projects)
-
-Email: [phuvan0205@gmail.com](phuvan0205@gmail.com)
-
-Feel free to explore, fork, and contribute! 🚀
-
+[LinkedIn](https://www.linkedin.com/in/phuvanenthran-p-316a53287) · [GitHub](https://github.com/Phuvanenthran-P) · [Email](mailto:phuvan0205@gmail.com)
